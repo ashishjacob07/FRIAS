@@ -12,8 +12,15 @@
 <body>
 <div id="Container">
   <div id="Banner">
-    <div id="Logo"><img src="../Images/Logo.png" width="488" height="366" alt=""/></div>
-    <div id="Navigation">NAVIGATION</div>
+    <div id="Logo"><img src="../Documents/GitHub/new/FRIAS/Images/Logo.png" width="488" height="366" alt=""/></div>
+    <div id="Navigation"> <ul>
+        <li>Home</li>
+        <li>Catalogue</li>
+        <li>Cafe</li>
+        <li>Order</li>
+        <li>Services</li>
+        
+    </ul></div>
     <div id="Search">SEARCH</div>
     <div id="Cart">CART</div>
   </div>
@@ -24,10 +31,14 @@
       <div id="Chat">CHAT</div>
   </div>
  
-  <div id="Footer"> FOOTER
-    <div id="Social Media"></div>
-    <div id="Contact"></div>
-    <div id="Address"></div>
+  <div id="Footer">
+    <div id="Social Media"> Social Media</div>
+    <div id="Contact"> Contact</div>
+    <div id="Address"> Address</div>
+    <div id="NavigationFooter"><ul><li>FAQ</li>
+      <li>Feedback</li>
+      <li>About Us</li>
+    </ul></div>
   </div>
 </div>
 </body>
