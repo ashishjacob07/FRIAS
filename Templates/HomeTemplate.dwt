@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="Container">
+  <div id="Banner">
+    <div id="Logo"><img src="../Images/Logo.png" width="488" height="366" alt=""/></div>
+    <div id="Navigation">NAVIGATION</div>
+    <div id="Search">SEARCH</div>
+    <div id="Cart">CART</div>
+  </div>
+    <div id="Body">
+	<!-- TemplateBeginEditable name="Editable" -->
+    edit
+	<!-- TemplateEndEditable -->
+      <div id="Chat">CHAT</div>
+  </div>
+ 
+  <div id="Footer"> FOOTER
+    <div id="Social Media"></div>
+    <div id="Contact"></div>
+    <div id="Address"></div>
+  </div>
+</div>
+</body>
+</html>
