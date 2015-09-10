@@ -1,11 +1,11 @@
 <!doctype html>
-<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<html>
 <head>
 <meta charset="utf-8">
-<!-- InstanceBeginEditable name="doctitle" -->
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>Untitled Document</title>
-<!-- InstanceEndEditable -->
-<link href='css/styles.css' rel='stylesheet' type='text/css'>
+<!-- TemplateEndEditable -->
+<link href='../css/styles.css' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 
@@ -14,7 +14,7 @@
 <header id="header">
   
 <div id="logo">
-<a href="index.html"><img id ="logoimg" src="Images/Logo.png"></a>
+<a href="index.html"><img id ="logoimg" src="../Images/Logo.png"></a>
 </div>
 
 <div id="nav-wrapper"> 
@@ -36,7 +36,7 @@
 
 <div id="search">
 
-<script type="text/javascript" src="js/frias.js"></script>
+<script type="text/javascript" src="../js/frias.js"></script>
 
 <form name="formsearch" id="formsearch" method="get" action="" onSubmit="checkFieldGN('formsearch','termtextkeywordsearch','Search product name or reference'); checkFormGN(); return(false);">
 <fieldset>
@@ -46,7 +46,7 @@
 <input type="text" name="termtextkeywordsearch" id="termtextkeywordsearch" size="20" value="" onclick="if (this.value==''){this.value='';}">
 </fieldset>
 
-<input type="image" name="searchsubmit" id="searchsubmit" src="Images/venda_locayta_search.png" alt="Search " onclick="if (termtextkeywordsearch.value=='Search product name or reference'){termtextkeywordsearch.value='';}">
+<input type="image" name="searchsubmit" id="searchsubmit" src="../Images/venda_locayta_search.png" alt="Search " onclick="if (termtextkeywordsearch.value=='Search product name or reference'){termtextkeywordsearch.value='';}">
 </form>
 
 
@@ -54,14 +54,13 @@
 </div>
 </header>
   
-<!-- InstanceBeginEditable name="Body" --> 
+<!-- TemplateBeginEditable name="Body" -->  
 <div id="container">
 
-<div id="slider">
-</div>
+<div id="banner"></div>
 
 </div>
-<!-- InstanceEndEditable --> 
+<!-- TemplateEndEditable --> 
 
 <footer id="footer">
 
@@ -85,26 +84,26 @@
 
 <ul class="nopadding">
 <li>
-<a href="index.html"><img id ="footerimg" src="Images/Logo.png"></a>
+<a href="index.html"><img id ="footerimg" src="../Images/Logo.png"></a>
 </li>
 
 <li><h2>Site info</h2></li>
 <table id="socialwrapper">
 <tr>
 <td>
-<li><a href="#"><img class="social-logo" src="Images/fblogo.png"></a></li>
+<li><a href="#"><img class="social-logo" src="../Images/fblogo.png"></a></li>
 </td>
 
 <td>
-<li><a href="#"><img class="social-logo" src="Images/twitlogo.png"></a>
+<li><a href="#"><img class="social-logo" src="../Images/twitlogo.png"></a>
 </li>
 </td>
 <td>
-<li><a href="#"><img class="social-logo" src="Images/instalogo.png"></a>
+<li><a href="#"><img class="social-logo" src="../Images/instalogo.png"></a>
 </li>
 </td>
 <td>
-<li><a href="#"><img class="social-logo" src="Images/googlogo.png"></a></li>
+<li><a href="#"><img class="social-logo" src="../Images/googlogo.png"></a></li>
 </td>
 </tr>
 </table>
@@ -146,4 +145,4 @@
 </footer>
 
 </body>
-<!-- InstanceEnd --></html>
+</html>
