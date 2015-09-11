@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+#form-content {
+	width: 100%;
+	height: 100%;
+	background-image:url(../Images/formbg2.jpg);
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+.form-wrapper {
+	margin-bottom: 30px;
+}
+
+#form-container {
+	background-color: white;
+	margin-top: 250px;
+	width: 600px;
+	color: #666;
+	font-size: 18px;
+	border-width: medium;
+	border-style: solid;	
+	padding: 50px;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 40px;
+	margin-right: 100px;
+	text-align: left;
+}
+
+label {
+	max-width: 100%; 
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 200px;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px #AAA inset;
+	float: right;
+}
+
+.selectbox {
+	float: right;
+    display: block;
+    width: 200px;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px #AAA inset;
+}
+
+.button {
+	background-color: #FFF;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.4;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 4px;
+	border-top: thin solid;
+	border-right: thin solid;
+	border-bottom: thin solid;
+	border-left: thin solid;
+}
+
+.checkbox {
+	padding-left: 20px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}

@@ -9,10 +9,13 @@ body {
 }
 
 #header {
-	float: none;
 	width: 100%;
 	margin: 0;
 	height: 20%;
+	position: absolute;
+	background-color: white;
+	border: 1px solid #b7b7b7;
+	padding-bottom: 40px;
 }
 
 #logo {
@@ -57,7 +60,7 @@ fieldset {
 	clear: both;
 }
 
-label {
+#notlabel {
 	display: none;
 }
 
@@ -66,7 +69,6 @@ label {
   color: #909090;
   height: 16px;
   font-size: 15px;
-  border: 1px solid #b7b7b7;
   width: 278px;
   padding: 10px 0 10px 7px;
 }
@@ -82,7 +84,7 @@ label {
 #nav-wrapper {
 	width: 100%;;
 	float: left;
-	padding-bottom: 7px;
+	padding-bottom: 10px;
 	margin: 0;
 }
 
@@ -95,7 +97,6 @@ label {
 	outline: medium none;
 	z-index: 997!important;
 	height: auto;
-	border-bottom: 1px solid #b7b7b7;
 	margin: 0px;
 	padding: 0;
 }
@@ -169,7 +170,7 @@ span {
 .sub-menu {
 	position: absolute;
   	background: #fff;
-  	top: 34px!important;
+  	top: 45px!important;
 	margin-left: 0;
     width:100%;
     padding:0px;
@@ -196,7 +197,8 @@ span {
 	height: 40%;
 	width: 100%;
 	padding: 0;
-	margin: 5px auto;
+	margin: 0px;
+	position: absolute;
 }
 
 #new_footer {
@@ -206,7 +208,6 @@ span {
   width: 100%;
   color: #000;
   text-align: center;
-  margin: 20px 0 0;
   padding: 18px 25px 13px;
 }
 
@@ -276,12 +277,12 @@ span {
   text-align: left;
   padding: 0px 150px 40px 0;
   list-style-type: none;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 #new_footer .footerlinks ul li {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 20px;
 }
 
 #footerimg {
@@ -293,22 +294,6 @@ span {
 	position: absolute;
 }
 
-/*---Content---*/
-#container {
-	width: 100%;
-	padding: 0;
-}
-
-#banner {
-	display: inline-block;
-	width: 100%;
-	height: 500px;
-	margin-left: 40px;
-	margin-right: 40px;
-	margin-top: 40px;
-	position: relative;
-}
-
 .social-logo {
 	width: 36px;
 	height: 36px;
@@ -317,3 +302,104 @@ span {
 #socialwrapper {
 	margin-bottom: 65px;
 }
+
+/*---INDEX---*/
+
+#container {
+	width: 100%;
+	padding: 0;
+}
+
+#banner {
+	text-align: center;
+	position: relative;
+	width:1000px;
+	height:800px;
+	padding: 20px 40px 20px 40px;
+	margin-top: 80px;
+	margin-bottom: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner .image-slider-wrapper{
+	overflow: hidden;
+}
+#image_slider {
+	position: relative;
+	overflow: hidden;
+	height: 800px;
+	width: 1000px;
+	padding:0;
+	top: 200px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+	border-radius: 25px;
+}
+#image_slider li{
+	position:relative;
+	max-width: 100%;
+	float: left;
+	list-style: none;
+	opacity: 1;
+}
+
+#banner .image-slider-wrapper:hover {
+    position: relative;
+    opacity: 0.75;
+}
+
+#image_slider img {
+	width: 1000px;
+	height: 600px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+
+#cafe-banner {
+	width: 100% !important;
+	display: inline-block;
+  	position: relative;
+  	margin: 0 auto;
+	top: 200px;
+	text-align: center;
+}
+
+#cafe-banner .cafe-banner-bg {
+	margin-top: 40px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../Images/tablecup.jpg) no-repeat center center;
+	background-size: cover;
+	height: 660px;
+}
+
+#cafe-banner .cafe-banner-container {
+	top: 20%;
+	display: inline-block;
+	position: relative;
+	outline: transparent;
+	margin: 0 auto;
+	height: 660px !important;
+}
+
+#cafe-banner .cafe-banner-container a {
+	height: 100%;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#cafe-desc {
+	left: 0px;
+	top: 250px;
+	position: absolute;
+	font-size: 18px;
+	color: white;
+}
+
+
+
