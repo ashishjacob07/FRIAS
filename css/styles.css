@@ -12,6 +12,7 @@ body {
 	padding: 0;
 	width: 100%;
 	font-size: 20px;
+	overflow-x: hidden;
 }
 
 #header {
@@ -19,9 +20,11 @@ body {
 	margin: 0;
 	height: 20%;
 	position: absolute;
-	background-color: white;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-image: url(../Images/arrows21.png);
 	border: 1px solid #b7b7b7;
-	padding-bottom: 40px;
+	padding-bottom: 35px;
 }
 
 #logo {
@@ -34,7 +37,7 @@ body {
 
 #logoimg {
 	height: 100px;
-	width: 200px;
+	width: 350px;
 	float: none;
 	margin: 0;
 	padding:0;
@@ -74,7 +77,7 @@ fieldset {
   float: right;
   color: #909090;
   height: 16px;
-  font-size: 18px;
+  font-size: 16px;
   width: 278px;
   padding: 10px 0 10px 7px;
   font-family: 'Cheri', sans-serif;
@@ -208,7 +211,9 @@ span {
 
 #new_footer {
   float: left;
-  background: none repeat scroll 0 0 #f4f4f3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../Images/frias-footer.jpg);
   border-top: 1px solid #aaa;
   width: 100%;
   color: #000;
@@ -322,23 +327,29 @@ span {
 
 /*---INDEX---*/
 
-#container {
+#index-container {
 	font-family: 'Montserrat', sans-serif;
 	width: 100%;
 	padding: 0;
+	background-image: url(../Images/felt-blue001.jpg);
+	height: 2500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
 }
 
 #banner {
 	text-align: center;
 	position: relative;
 	width:1000px;
-	height:800px;
-	padding: 20px 40px 20px 40px;
-	margin-top: 80px;
+	height:600px;
+	padding: 0px 40px 20px 40px;
+	margin-top: 0px;
 	margin-bottom: 100px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
+	top: 280px;
 }
 
 #banner .image-slider-wrapper{
@@ -347,10 +358,10 @@ span {
 #image_slider {
 	position: relative;
 	overflow: hidden;
-	height: 800px;
+	height: 600px;
 	width: 1000px;
 	padding:0;
-	top: 200px;
+	top: 0px;
 	box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
 	border-radius: 25px;
 }
@@ -386,7 +397,7 @@ span {
 }
 
 #cafe-banner .cafe-banner-bg {
-	margin-top: 40px;
+	margin-top: 60px;
 	width: 100%;
 	position: absolute;
 	top: 0;
@@ -419,5 +430,80 @@ span {
 	color: white;
 }
 
+#divider {
+  display: block;
+  width: 1000px;
+  text-align: center;
+  margin: 9px auto 22px;
+  text-align: center;
+  position: relative;
+  clear: both;
+  top: 50px;
+}
+
+.divider-border {
+  background: #ccc;
+  height: 1px;
+  margin: 9px 0 0 0;
+  width: 100%;
+  position: absolute;
+  top: 4px;
+  z-index: 1;
+}
+
+#divider-span {
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 18px;
+  padding: 5px 15px;
+  z-index: 10;
+  background-color: #FFFFFF;
+  position: relative;
+  text-transform: uppercase;
+}
+
+#divider-top {
+  display: block;
+  width: 1000px;
+  text-align: center;
+  margin: 9px auto 22px;
+  text-align: center;
+  position: relative;
+  clear: both;
+  top: 8px;
+}
+
+#divider-bottom {
+  display: block;
+  width: 1000px;
+  text-align: center;
+  margin: 9px auto 22px;
+  text-align: center;
+  position: relative;
+  clear: both;
+  top: 240px;
+}
+
+#events-banner {
+	width: 100% !important;
+	display: inline-block;
+  	position: relative;
+  	margin: 0;
+	bottom: 0;
+	top: 220px;
+	text-align: center;
+}
+
+#events-banner .events-banner-bg {
+	margin-top: 60px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../Images/events.jpg) no-repeat center center;
+	background-size: cover;
+	height: 660px;
+}
 
 
