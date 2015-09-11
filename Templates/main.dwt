@@ -11,7 +11,7 @@
 
 <body>
 
-<header id="header">
+<div id="header">
   
 <div id="logo">
 <a href="index.html"><img id ="logoimg" src="../Images/Logo.png"></a>
@@ -29,7 +29,7 @@
 </li>
 <li><a href="cafe.html"><span>Cafe</span></a></li>
 <li><a href="form.html"><span>Order</span></a></li>
-<li><a href="services.html"><span>Services</span></a></li>     
+<li><a href="events.html"><span>Events</span></a></li>     
 </ul>
 </nav>
 </div>
@@ -42,7 +42,7 @@
 <fieldset>
 <legend>Search Criteria</legend>
 						
-<label for="termtextkeywordsearch">Keyword:</label>
+<label id="notlabel" for="termtextkeywordsearch">Keyword:</label>
 <input type="text" name="termtextkeywordsearch" id="termtextkeywordsearch" size="20" value="" onclick="if (this.value==''){this.value='';}">
 </fieldset>
 
@@ -52,9 +52,9 @@
 
 
 </div>
-</header>
+</div>
   
-<!-- TemplateBeginEditable name="Body" -->  
+<!-- TemplateBeginEditable name="BContent" -->  
 <div id="container">
 
 <div id="banner"></div>
@@ -62,7 +62,7 @@
 </div>
 <!-- TemplateEndEditable --> 
 
-<footer id="footer">
+<div id="footer">
 
 <div id="new_footer">
 <div class="footerlinks">
@@ -87,7 +87,7 @@
 <a href="index.html"><img id ="footerimg" src="../Images/Logo.png"></a>
 </li>
 
-<li><h2>Site info</h2></li>
+<li><h2>Frias social</h2></li>
 <table id="socialwrapper">
 <tr>
 <td>
@@ -123,12 +123,12 @@
 <span class="title">subscribe for new products now!</span>
 
 <div class="form-group">
-<form name="emailsonly2" action="#" method="get" onsubmit="validateEmail(document.emailsonly2,'Please enter a valid email address'); return false;" id="emailsonly2">
+<form name="emailsonly2" action="#">
 
 <fieldset>
 
 <legend>Email sign-up</legend>
-<input type="text" name="email" id="emailsignup" size="16" value="EMAIL ADDRESS" title="EMAIL ADDRESS" onfocus="if (this.value=='EMAIL ADDRESS') {this.value=''};">
+<input type="text" name="email" id="emailsignup" size="16" placeholder="EMAIL ADDRESS" title="EMAIL ADDRESS">
 <input type="submit" value="subscribe" id="sub-button">
 					
 </fieldset>
@@ -142,7 +142,7 @@
 
 </div>
 
-</footer>
+</div>
 
 </body>
 </html>

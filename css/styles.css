@@ -1,11 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+    font-family: Cheri;
+    src: url(../cheri/CHERL___.TTF);
+}
+
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Cheri', sans-serif;
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	font-size: 20px;
 }
 
 #header {
@@ -68,9 +74,10 @@ fieldset {
   float: right;
   color: #909090;
   height: 16px;
-  font-size: 15px;
+  font-size: 18px;
   width: 278px;
   padding: 10px 0 10px 7px;
+  font-family: 'Cheri', sans-serif;
 }
 
 #searchsubmit {
@@ -92,7 +99,6 @@ fieldset {
 	clear: both;
 	position: relative;
 	width: 100%;
-	font-size: 18px;
 	vertical-align: baseline;
 	outline: medium none;
 	z-index: 997!important;
@@ -183,7 +189,6 @@ span {
 .sub-menu li {
 	text-align: left;
     display:block;
-    font-size:16px;
 	margin-left: 20px;
 	padding: 5px;
 }
@@ -215,7 +220,7 @@ span {
   float: left;
   line-height: 42px;
   margin-right: 40px;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 1px;
   font-variant: small-caps;
 }
@@ -227,11 +232,12 @@ span {
 }
 
 #emailsignup {
+	font-family: 'Cheri', sans-serif;
 	float: left;
-	width: 200px;
+	width: 220px;
     height: 30px;
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: 15px;
     color: #555;
     background-color: #FFF;
     background-image: none;
@@ -241,10 +247,12 @@ span {
 }
 
 #sub-button {
+	border-radius: 10px;
+	font-family: 'Cheri', sans-serif;
 	float: right;
-	background: #1f3d5a;
+	background: #6B9BD4;
 	color: #fff;
-	font-size: 13px;
+	font-size: 16px;
 	line-height: 42px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -254,6 +262,14 @@ span {
 	margin: 0 10px;
 	padding: 0 22px;
 	cursor: pointer;
+	box-shadow:2px 2px 10px 2px rgba(1,1,1,0.3);
+}
+
+#sub-button:hover {
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	transition: 0.7s;
+	background: #3A77C0;
 }
 
 #newfooter form {
@@ -278,6 +294,7 @@ span {
   padding: 0px 150px 40px 0;
   list-style-type: none;
   margin-bottom: 0px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #new_footer .footerlinks ul li {
@@ -306,6 +323,7 @@ span {
 /*---INDEX---*/
 
 #container {
+	font-family: 'Montserrat', sans-serif;
 	width: 100%;
 	padding: 0;
 }
