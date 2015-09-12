@@ -13,6 +13,19 @@
 	text-align: right;
 }
 
+#feedback-content {
+	width: 100%;
+	height: 1500px;
+	background-image: url(../Images/felt-blue001.jpg);
+    background-attachment:scroll;
+    background-size:cover;
+    background-repeat:no-repeat;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	
+}
+
 .form-wrapper {
 	margin-bottom: 30px;
 }
@@ -33,9 +46,31 @@
 	text-align: left;
 }
 
+textarea.form-controls {
+  height: auto;
+}
+
+#feedback-container {
+	font-family: 'Montserrat', sans-serif;
+	background-color: white;
+	width: 1000px;
+	top: 300px;
+	color: #666;
+	font-size: 18px;
+	border-width: medium;
+	border-style: solid;	
+	padding: 50px;
+	margin-left: auto;
+	position: relative;
+	margin-bottom: 40px;
+	margin-right: auto;
+	text-align: left;
+}
+
 label {
 	max-width: 100%; 
     margin-bottom: 5px;
+	display: inline-block;
 }
 
 .form-control {
@@ -53,8 +88,39 @@ label {
 	float: right;
 }
 
+.form-controls {
+	display: block;
+  width: 80%;
+  height: 30px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555;
+  background-color: #FFF;
+  background-image: none;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px #AAA inset;
+}
+
+
 .selectbox {
 	float: right;
+    display: block;
+    width: 200px;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px #AAA inset;
+}
+
+.selectbox-1 {
     display: block;
     width: 200px;
     height: 40px;
@@ -90,4 +156,9 @@ label {
 	padding-left: 20px;
 	margin-bottom: 10px;
 	font-size: 14px;
+}
+
+.radio {
+	margin-left: 10px;
+	margin-right: 10px;
 }

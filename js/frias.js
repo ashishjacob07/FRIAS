@@ -1,4 +1,6 @@
 // JavaScript Document
+
+/*For working search box, but no SQL supported for this website yet*/
 	function checkFormGN() {
 	var searchForm = document.formsearch;
 	var hasValue=0;
@@ -23,7 +25,7 @@
 		}
 	}
 	
-/*For slider*/
+/*For slider animation*/
 var ul;
 var li_items; 
 var li_number;
