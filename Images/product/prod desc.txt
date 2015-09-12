@@ -1,0 +1,107 @@
+product 1:
+COTTON SHRIT
+29.90$
+
+DESCRIPTION
+Long-sleeved shirt in washed, slightly napped cotton twill with shoulder tabs and chest pockets with flap and button.
+
+DETAILS
+100% cotton. Machine wash at 40'
+
+
+P2:
+TWILL TROUSERS SLIM FIT
+24.90 dollars
+
+DESCRIPTION
+5-pocket, slim-fit pants in stretch cotton twill with slim legs. Adjustable elasticized waistband and zip fly with snap fastener.
+
+DETAILS
+98% cotton, 2% spandex. Machine wash at 40'
+
+
+P3
+TWILL TROUSERS
+19.90
+
+DESCRIPTION
+5-pocket trousers in washed cotton twill with stitching in a contrasting colour, an adjustable elasticated waist and zip fly with a press-stud.
+
+DETAILS
+100% cotton. Machine wash at 60°
+
+
+P4
+KNITTED LEGGINGS
+19.90
+
+DESCRIPTION
+Pattern-knit leggings in a soft cotton blend with an elasticated waist and decorative buttons at the hems.
+
+DETAILS
+83% cotton, 17% polyamide. Machine wash at 40°
+
+
+P5
+SWEATSHIRT
+24.90
+
+DESCRIPTION
+Long-sleeved top in sweatshirt fabric with a print pattern and ribbing at the cuffs and hem.
+
+DETAILS
+74% cotton, 26% polyester. Machine wash at 40°
+
+
+P6
+JERSEY CROP TOP
+19.90
+
+DESCRIPTION
+Cropped top in jersey with short sleeves and a lace trim at the hem.
+
+DETAILS
+60% cotton, 40% polyester.
+
+
+P7
+PATTERNED HOODED JACKET
+24.90
+
+DESCRIPTION
+Jacket in sweatshirt fabric with a print pattern, jersey-lined hood, zip at the front, side pockets, and ribbing at the cuffs and hem. Soft brushed inside.
+
+DETAILS
+70% cotton, 30% polyester. Machine wash at 40°
+
+
+P8
+2-PACK VEST TOP
+12.90
+
+DESCRIPTION
+CONSCIOUS. Vest tops in soft ribbed jersey made from organic cotton.
+
+DETAILS
+100% cotton. Machine wash at 60°
+
+P9
+TIERED DRESS
+39.90
+
+DESCRIPTION
+Sleeveless dress in woven fabric with a slight sheen. The dress has a seam at the top, buttons at the back and a flared skirt with vertical tulle tiers. Lined.
+
+DETAILS
+100% polyester. Machine wash at 40°
+
+
+P10
+SWEATSHIRT
+29.90
+
+DESCRIPTION
+CONSCIOUS. Top in soft sweatshirt fabric made from an organic cotton blend with long raglan sleeves in a contrasting colour and ribbing at the cuffs and hem.
+
+DETAILS
+80% cotton, 20% polyester. Machine wash at 40°
