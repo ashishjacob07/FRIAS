@@ -1,11 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
-#container #banner .Heading {
+#container .Heading {
 	color: #FF0004;
 	font-size: 36pt;
 }
-#container #banner .Article {
+
+#container .Article {
 	font-size: 18pt;
 	color: #22BC42;
 	text-align: left;
@@ -19,13 +20,28 @@
 	top: 6px;
 }
 
-#banner #eventcontainer{
+#event-wrapper {
+	text-align: center;
+	position: relative;
+	width:1000px;
+	height:700px;
+	padding: 0px 40px 20px 40px;
+	margin-top: 0px;
+	margin-bottom: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	top: 280px;
+}
+
+#eventcontainer{
 	position: absolute;
 	font-size: medium;
-	left: 33%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	text-decoration: none;
 	text-align: justify;
-	bottom: 29%;
 }
 #eventcontainer ul li{
 	list-style-type: none;
@@ -45,27 +61,38 @@
 	text-align: left;
 	color: #FF0004;
 }
+
 #contact p{
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: x-large;
 	color: #1D42D1;
 	text-align: left;
 }
 
 #faq-banner {
-	margin-top: 20px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	height: 900px;
+	height: 1000px;
 	width: 800px;
-	top: 280px;
+	top: 250px;
 }
 
 #contact h1{
 	font-size: 220%;
 	color: #CC0003;
+	text-align: left;
+}
+
+#contact-wrapper {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	height: 1100px;
+	width: 800px;
+	top: 250px;
 }
 
 #faqText {
@@ -73,6 +100,7 @@
 	bottom: 45%;
 	font-family: 'Montserrat', sans-serif;
 	text-align: left;
+	top: 0px;
 }
 
 #faqHeading{
