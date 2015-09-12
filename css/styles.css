@@ -28,6 +28,7 @@ body {
 	background-image: url(../Images/arrows21.png);
 	border: 1px solid #b7b7b7;
 	padding-bottom: 35px;
+	box-shadow: 5px 5px 18px #666;
 }
 
 #logo {
@@ -207,6 +208,7 @@ span {
 /*-----FOOTER-----*/
 
 #footer {
+	box-shadow: 5px -10px 30px #666;
 	height: 40%;
 	width: 100%;
 	padding: 0;
@@ -336,7 +338,6 @@ span {
 	font-family: 'Montserrat', sans-serif;
 	width: 100%;
 	padding: 0;
-	background-image: url(../Images/felt-blue001.jpg);
 	height: 2500px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -422,7 +423,6 @@ span {
 }
 
 #cafe-banner .cafe-banner-container a {
-	height: 100%;
 	display: inline-block;
 	text-decoration: none;
 }
@@ -529,6 +529,33 @@ span {
 	background: url(../Images/events.jpg) no-repeat center center;
 	background-size: cover;
 	height: 660px;
+}
+
+#events-banner-desc {
+	text-transform: uppercase;
+	width: 100%;
+	display: inline-block;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 200px;
+}
+
+#events-banner-logo {
+	top: 100px;
+	display: inline-block;
+	position: absolute;
+	margin-right: auto;
+	margin-left: auto;
+	height: 300px;
+	width: 450px;
+	left: 200px;
+	border-radius: 20px;
+}
+
+#events-banner-logo:hover {
+	opacity: 0.7;
 }
 
 

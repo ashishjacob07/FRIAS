@@ -8,6 +8,7 @@
 #container #banner .Article {
 	font-size: 18pt;
 	color: #22BC42;
+	text-align: left;
 }
 #banner .text h2 {
 	color: #2345B4;
@@ -16,18 +17,8 @@
 #banner .text {
 	position: absolute;
 	top: 6px;
-
-
-
 }
 
-#banner #faqText #faqp {
-}
-#banner #faqText #faqHeading {
-}
-
-#banner #faqText {
-}
 #banner #eventcontainer{
 	position: absolute;
 	font-size: medium;
@@ -39,7 +30,7 @@
 #eventcontainer ul li{
 	list-style-type: none;
 	color: #0E8800;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: large;
 }
 #eventcontainer h1{
@@ -61,19 +52,49 @@
 	text-align: left;
 }
 
+#faq-banner {
+	margin-top: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	height: 900px;
+	width: 800px;
+	top: 280px;
+}
+
 #contact h1{
 	font-size: 220%;
 	color: #CC0003;
 }
-#faqp   {
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	text-align: left;
-}
+
 #faqText {
 	position: absolute;
 	bottom: 45%;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
 }
 
 #faqHeading{
-	color: #B7080B;
+	color: #AC2325;
+	font-family: 'Cheri', sans-serif;
+}
+
+#faq-banner a:hover {
+	color: #B81215;
+	-webkit-transition: color 0.1s;
+	-webkit-transition-property: color;
+	-webkit-transition-duration: 0.3s;
+	-webkit-transition-timing-function: initial;
+	-webkit-transition-delay: initial;
+	-moz-transition: color 0.1s;
+	-moz-transition-property: color;
+	-moz-transition-duration: 0.3s;
+	-moz-transition-timing-function: initial;
+	-moz-transition-delay: initial;
+	transition: color 0.1s;
+	transition-property: color;
+	transition-duration: 0.3s;
+	transition-timing-function: initial;
+	transition-delay: initial;	
 }
