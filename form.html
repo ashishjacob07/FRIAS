@@ -24,8 +24,9 @@
 <li><a href="index.html"><span>Home</span></a></li>
 <li><a href="catalogue.html"><span>Catalogue</span></a>
 				<ul class="sub-menu">
-                    <li><a href="#">Beach Wear</a></li>
-                    <li><a href="#">Jeans</a></li>
+                    <li><a href="beachwear.html">Beach Wear</a></li>
+                    <li><a href="kids-top.html">Clothes</a></li>
+                    <li><a href="kids-bottom.html">Bottom</a></li>
                 </ul>
 </li>
 <li><a href="cafe.html"><span>Cafe</span></a></li>
@@ -44,7 +45,7 @@
 <legend>Search Criteria</legend>
 						
 <label id="notlabel" for="termtextkeywordsearch">Keyword:</label>
-<input type="text" name="termtextkeywordsearch" id="termtextkeywordsearch" size="20" value="" onclick="if (this.value==''){this.value='';}">
+<input type="text" name="termtextkeywordsearch" id="termtextkeywordsearch" placeholder="SEARCH" size="20" value="" onclick="if (this.value==''){this.value='';}">
 </fieldset>
 
 <input type="image" name="searchsubmit" id="searchsubmit" src="Images/venda_locayta_search.png" alt="Search " onclick="if (termtextkeywordsearch.value=='Search product name or reference'){termtextkeywordsearch.value='';}">
@@ -130,26 +131,26 @@ I have read and agree to the <a href="policy.html">terms & conditions.</a></labe
 
 <ul class="nopadding">
 <li>
-<a href="index.html"><img id ="footerimg" src="Images/Logo.png"></a>
+<a href="index.html"><img id ="footerimg" src="Images/LogoFooter.png"></a>
 </li>
 
 <li><h2>Frias social</h2></li>
 <table id="socialwrapper">
 <tr>
 <td>
-<li><a href="#"><img class="social-logo" src="Images/fblogo.png"></a></li>
+<li><a href="#" title="Facebook"><img class="social-logo" src="Images/fblogo.png"></a></li>
 </td>
 
 <td>
-<li><a href="#"><img class="social-logo" src="Images/twitlogo.png"></a>
+<li><a href="#" title="Twitter"><img class="social-logo" src="Images/twitlogo.png"></a>
 </li>
 </td>
 <td>
-<li><a href="#"><img class="social-logo" src="Images/instalogo.png"></a>
+<li><a href="#" title="Instagram"><img class="social-logo" src="Images/instalogo.png"></a>
 </li>
 </td>
 <td>
-<li><a href="#"><img class="social-logo" src="Images/googlogo.png"></a></li>
+<li><a href="#" title="Google Plus"><img class="social-logo" src="Images/googlogo.png"></a></li>
 </td>
 </tr>
 </table>
@@ -169,12 +170,12 @@ I have read and agree to the <a href="policy.html">terms & conditions.</a></labe
 <span class="title">subscribe for new products now!</span>
 
 <div class="form-group">
-<form name="emailsonly2" action="#" method="get" onsubmit="validateEmail(document.emailsonly2,'Please enter a valid email address'); return false;" id="emailsonly2">
+<form name="emailsonly2" action="#">
 
 <fieldset>
 
 <legend>Email sign-up</legend>
-<input type="text" name="email" id="emailsignup" size="16" value="EMAIL ADDRESS" title="EMAIL ADDRESS" onfocus="if (this.value=='EMAIL ADDRESS') {this.value=''};">
+<input type="text" name="email" id="emailsignup" size="16" placeholder="EMAIL ADDRESS" title="EMAIL ADDRESS">
 <input type="submit" value="subscribe" id="sub-button">
 					
 </fieldset>

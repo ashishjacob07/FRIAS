@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Untitled Document</title>
+<title>Frias Kids - Shop Online Now!</title>
 <!-- InstanceEndEditable -->
 <link href='css/styles.css' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -11,7 +11,7 @@
 
 <body>
 
-<header id="header">
+<div id="header">
   
 <div id="logo">
 <a href="index.html"><img id ="logoimg" src="Images/Logo.png"></a>
@@ -23,13 +23,14 @@
 <li><a href="index.html"><span>Home</span></a></li>
 <li><a href="catalogue.html"><span>Catalogue</span></a>
 				<ul class="sub-menu">
-                    <li><a href="#">Beach Wear</a></li>
-                    <li><a href="#">Jeans</a></li>
+                    <li><a href="beachwear.html">Beach Wear</a></li>
+                    <li><a href="kids-top.html">Clothes</a></li>
+                    <li><a href="kids-bottom.html">Bottom</a></li>
                 </ul>
 </li>
 <li><a href="cafe.html"><span>Cafe</span></a></li>
 <li><a href="form.html"><span>Order</span></a></li>
-<li><a href="services.html"><span>Services</span></a></li>     
+<li><a href="events.html"><span>Events</span></a></li>     
 </ul>
 </nav>
 </div>
@@ -42,8 +43,8 @@
 <fieldset>
 <legend>Search Criteria</legend>
 						
-<label for="termtextkeywordsearch">Keyword:</label>
-<input type="text" name="termtextkeywordsearch" id="termtextkeywordsearch" size="20" value="" onclick="if (this.value==''){this.value='';}">
+<label id="notlabel" for="termtextkeywordsearch">Keyword:</label>
+<input type="text" name="termtextkeywordsearch" id="termtextkeywordsearch" placeholder="SEARCH" size="20" value="" onclick="if (this.value==''){this.value='';}">
 </fieldset>
 
 <input type="image" name="searchsubmit" id="searchsubmit" src="Images/venda_locayta_search.png" alt="Search " onclick="if (termtextkeywordsearch.value=='Search product name or reference'){termtextkeywordsearch.value='';}">
@@ -52,18 +53,58 @@
 
 
 </div>
-</header>
+</div>
   
-<!-- InstanceBeginEditable name="Body" --> 
-<div id="container">
+<!-- InstanceBeginEditable name="BContent" -->  
+<div id="index-container">
 
-<div id="slider">
+<div id="cafe-banner">
+
+<div id="divider-top">
+<div class="divider-border"></div>
+<span id="divider-span">Headline News</span>
+</div>
+
+<div class="cafe-banner-bg"></div>
+
+<div class="cafe-banner-container">
+<a href="cafe.html" id="cafe-desc">
+SEE THE <strong>CAFE</strong> NOW >
+</a>
+</div>
+
+<div id="divider">
+<div class="divider-border"></div>
+<span id="divider-span">Hot Offers</span>
+</div>
+
+</div>
+
+
+<div id="banner">
+<div class="image-slider-wrapper">
+<ul id="image_slider">
+<li><img src="Images/bgkids1.jpg"></li>
+<li><img src="Images/bgkids2.jpg"></li>
+<li><img src="Images/bgkids3.jpg"></li>
+</ul>
+</div>
+</div>
+
+<div id="divider-bottom">
+<div class="divider-border"></div>
+<span id="divider-span">Events</span>
+</div>
+
+<div id="events-banner">
+<a href="events.html"><div class="events-banner-bg"></div></a>
+</div>
 </div>
 
 </div>
 <!-- InstanceEndEditable --> 
 
-<footer id="footer">
+<div id="footer">
 
 <div id="new_footer">
 <div class="footerlinks">
@@ -85,26 +126,26 @@
 
 <ul class="nopadding">
 <li>
-<a href="index.html"><img id ="footerimg" src="Images/Logo.png"></a>
+<a href="index.html"><img id ="footerimg" src="Images/LogoFooter.png"></a>
 </li>
 
-<li><h2>Site info</h2></li>
+<li><h2>Frias social</h2></li>
 <table id="socialwrapper">
 <tr>
 <td>
-<li><a href="#"><img class="social-logo" src="Images/fblogo.png"></a></li>
+<li><a href="#" title="Facebook"><img class="social-logo" src="Images/fblogo.png"></a></li>
 </td>
 
 <td>
-<li><a href="#"><img class="social-logo" src="Images/twitlogo.png"></a>
+<li><a href="#" title="Twitter"><img class="social-logo" src="Images/twitlogo.png"></a>
 </li>
 </td>
 <td>
-<li><a href="#"><img class="social-logo" src="Images/instalogo.png"></a>
+<li><a href="#" title="Instagram"><img class="social-logo" src="Images/instalogo.png"></a>
 </li>
 </td>
 <td>
-<li><a href="#"><img class="social-logo" src="Images/googlogo.png"></a></li>
+<li><a href="#" title="Google Plus"><img class="social-logo" src="Images/googlogo.png"></a></li>
 </td>
 </tr>
 </table>
@@ -124,12 +165,12 @@
 <span class="title">subscribe for new products now!</span>
 
 <div class="form-group">
-<form name="emailsonly2" action="#" method="get" onsubmit="validateEmail(document.emailsonly2,'Please enter a valid email address'); return false;" id="emailsonly2">
+<form name="emailsonly2" action="#">
 
 <fieldset>
 
 <legend>Email sign-up</legend>
-<input type="text" name="email" id="emailsignup" size="16" value="EMAIL ADDRESS" title="EMAIL ADDRESS" onfocus="if (this.value=='EMAIL ADDRESS') {this.value=''};">
+<input type="text" name="email" id="emailsignup" size="16" placeholder="EMAIL ADDRESS" title="EMAIL ADDRESS">
 <input type="submit" value="subscribe" id="sub-button">
 					
 </fieldset>
@@ -143,7 +184,7 @@
 
 </div>
 
-</footer>
+</div>
 
 </body>
 <!-- InstanceEnd --></html>
