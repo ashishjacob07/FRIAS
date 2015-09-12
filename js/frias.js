@@ -105,3 +105,12 @@ function Total(qty,ud,total,value){
  
  document.getElementById(total).value = qty.value*value;
 }
+
+/*Comment Area Validation Char(160)*/
+function updateCharacters(limit) {
+    var textArea = document.feedback.comments;
+    if (textArea.value.length > limit)
+        textArea.value = textArea.value.substring(0, limit);
+    remaining = limit - textArea.value.length;
+    document.getElementById('characters').innerHTML = "(" + remaining + " characters remaining)";
+}

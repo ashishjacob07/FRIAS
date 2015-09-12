@@ -63,7 +63,7 @@
 <h1>Feedback</h1>
 <p>We would like to know your opinion about our website. Please help us improve!</p>
  <br>
-<form role="form" action="send_form_email.php" method="POST">
+<form name="feedback" id="feedback" role="form" action="#" method="POST">
 
 <div class="form-wrapper">
 <label>Time taken to load: </label>
@@ -120,8 +120,10 @@
 </div>
 
 <div class="form-wrapper">
-<label for="comments">Please put additional comments:</label>
-<textarea class="form-controls" rows="5" id="comments" name="comments" required></textarea>
+<label for="comments">Please put additional comments:
+<br>
+<span id="characters">(160 characters remaining)</span></label>
+<textarea class="form-controls" rows="5" id="comments" name="comments" required onKeyUp="updateCharacters(160)"></textarea>
 </select>
 </div>
 
