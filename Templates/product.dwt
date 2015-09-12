@@ -1,12 +1,13 @@
 <!doctype html>
-<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<html>
 <head>
 <meta charset="utf-8">
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>Frias Kids - Order Now!</title>
-<link href='css/formstyles.css' rel='stylesheet' type='text/css'>
-<!-- InstanceEndEditable -->
-<link href='css/styles.css' rel='stylesheet' type='text/css'>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href='../css/styles.css' rel='stylesheet' type='text/css'>
+<link href='../css/product.css' rel='stylesheet' type='text/css'>
+<link href='../css/formstyles.css' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 
@@ -15,7 +16,7 @@
 <div id="header">
   
 <div id="logo">
-<a href="index.html"><img id ="logoimg" src="Images/Logo.png"></a>
+<a href="index.html"><img id ="logoimg" src="../Images/Logo.png"></a>
 </div>
 
 <div id="nav-wrapper"> 
@@ -38,7 +39,7 @@
 
 <div id="search">
 
-<script type="text/javascript" src="js/frias.js"></script>
+<script type="text/javascript" src="../js/frias.js"></script>
 
 <form name="formsearch" id="formsearch" method="get" action="" onSubmit="checkFieldGN('formsearch','termtextkeywordsearch','Search product name or reference'); checkFormGN(); return(false);">
 <fieldset>
@@ -48,7 +49,7 @@
 <input type="text" name="termtextkeywordsearch" id="termtextkeywordsearch" placeholder="SEARCH" size="20" value="" onclick="if (this.value==''){this.value='';}">
 </fieldset>
 
-<input type="image" name="searchsubmit" id="searchsubmit" src="Images/venda_locayta_search.png" alt="Search " onclick="if (termtextkeywordsearch.value=='Search product name or reference'){termtextkeywordsearch.value='';}">
+<input type="image" name="searchsubmit" id="searchsubmit" src="../Images/venda_locayta_search.png" alt="Search " onclick="if (termtextkeywordsearch.value=='Search product name or reference'){termtextkeywordsearch.value='';}">
 </form>
 
 
@@ -56,58 +57,55 @@
 </div>
 </div>
   
-<!-- InstanceBeginEditable name="BContent" -->
-<div id="form-content">
+<!-- TemplateBeginEditable name="BContent" -->  
+<div id="product-container">
 
-<div id="form-container">
-<h1>Order Form</h1>
-<p>Fill up the order form below to make purchase.</p>
- <br>
-<form role="form" action="send_form_email.php" method="POST">
- 
-<div class="form-wrapper">
-<label for="first_name">Your First Name:</label>
-<input type="text" class="form-control" id="first_name" name="first_name" minlength="3" pattern=".{3,}" required placeholder="Your first name here">
+<div id="product-banner">
+<div class="producthead">
 </div>
 
-<div class="form-wrapper">
-<label>Your Last Name:</label>
-<input type="text" class="form-control" id="last_name" pattern=".{3,}" minlength="3" name="last_name" required placeholder="Your last name here">
-</div>
+<div class="description">
+<h1>Product Name Here</h1>
+<br>
+<p>The description of the product. JUST WRITE EVERYTHING YOU CAN THINK OF, MAKE IT LONG PLEASE. ALSO SPECIFY FOR GIRLS OR BOYS.</p>
+<br>
+<br>
 
 <div class="form-wrapper">
-<label>e-Mail:</label>
-<input type="email" class="form-control" id="email" name="email" pattern=".{10,}" minlength="8" required placeholder="Enter a valid email address">
-</div>
-
-<div class="form-wrapper">
-<label>Phone number:</label>
-<input type="text" class="form-control" id="telephone" name="telephone" pattern=".{6,}" required placeholder="Input your phone number">
-</div>
-
-<div class="form-wrapper">
-<label>Shipping method:</label>
-<select class="selectbox" id="select" name="select" required>
+<label>Select the size:</label>
+<select class="selectbox-1" id="select" name="select" required>
 <option value="">Please Select</option>
-<option value="1">Premium</option>
-<option value="2">Regular</option>
+<option value="S">Small</option>
+<option value="M">Medium</option>
+<option value="L">Large</option>
 </select>
 </div>
 
-<div class="form-wrapper">
-<label><input class="checkbox" type="checkbox" required>
-I have read and agree to the <a href="policy.html">terms & conditions.</a></label>
-</div>
-
-<button type="submit" class="button" value="Submit">Submit</button>
-<input type="reset" class="button" value="Clear Form" />
-</div>
+<form id="purchase">
+<br>
+<label>Item Price: $(Change this too)</label>
+<br>
+<br>
+<label>Please Select Quantity</label>
+<input type='button' class="button-product" name='subtract' onclick='Total("qty",-1,"total",463.50);' value='-'/>
+<input type='button' class="button-product" name='add' onclick='Total("qty",1,"total",463.50);' value='+'/>
+<input type='text' class="form-control" name='qty' id='qty' readonly=true value="0"/>
+<br>
+<br>
+<label>Total Price: </label>
+<input type='text' class="form-control" name='total' id='total' value="0" />
 </form>
-</div>
+
 </div>
 
+<p class="go-back">
+<a href="catalogue.html">< Go back to Catalogue</a>
+</p>
 
-<!-- InstanceEndEditable --> 
+</div>
+
+</div>
+<!-- TemplateEndEditable --> 
 
 <div id="footer">
 
@@ -131,26 +129,26 @@ I have read and agree to the <a href="policy.html">terms & conditions.</a></labe
 
 <ul class="nopadding">
 <li>
-<a href="index.html"><img id ="footerimg" src="Images/LogoFooter.png"></a>
+<a href="index.html"><img id ="footerimg" src="../Images/LogoFooter.png"></a>
 </li>
 
 <li><h2>Frias social</h2></li>
 <table id="socialwrapper">
 <tr>
 <td>
-<li><a href="#" title="Facebook"><img class="social-logo" src="Images/fblogo.png"></a></li>
+<li><a href="#" title="Facebook"><img class="social-logo" src="../Images/fblogo.png"></a></li>
 </td>
 
 <td>
-<li><a href="#" title="Twitter"><img class="social-logo" src="Images/twitlogo.png"></a>
+<li><a href="#" title="Twitter"><img class="social-logo" src="../Images/twitlogo.png"></a>
 </li>
 </td>
 <td>
-<li><a href="#" title="Instagram"><img class="social-logo" src="Images/instalogo.png"></a>
+<li><a href="#" title="Instagram"><img class="social-logo" src="../Images/instalogo.png"></a>
 </li>
 </td>
 <td>
-<li><a href="#" title="Google Plus"><img class="social-logo" src="Images/googlogo.png"></a></li>
+<li><a href="#" title="Google Plus"><img class="social-logo" src="../Images/googlogo.png"></a></li>
 </td>
 </tr>
 </table>
@@ -192,4 +190,4 @@ I have read and agree to the <a href="policy.html">terms & conditions.</a></labe
 </div>
 
 </body>
-<!-- InstanceEnd --></html>
+</html>

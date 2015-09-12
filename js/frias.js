@@ -1,4 +1,6 @@
 // JavaScript Document
+
+/*For working search box, but no SQL supported for this website yet*/
 	function checkFormGN() {
 	var searchForm = document.formsearch;
 	var hasValue=0;
@@ -23,7 +25,7 @@
 		}
 	}
 	
-/*For slider*/
+/*For slider animation*/
 var ul;
 var li_items; 
 var li_number;
@@ -92,3 +94,23 @@ function animate(opts){
 	}, opts.dalay || 17);
 }
 window.onload = init;
+
+/*Calculating the quantity*/
+function Total(qty,ud,total,value){
+ 
+ qty = document.getElementById(qty);
+ 
+ ud > 0 ? qty.value++: qty.value--;
+ qty.value = Math.max(qty.value,0);
+ 
+ document.getElementById(total).value = qty.value*value;
+}
+
+/*Comment Area Validation Char(160)*/
+function updateCharacters(limit) {
+    var textArea = document.feedback.comments;
+    if (textArea.value.length > limit)
+        textArea.value = textArea.value.substring(0, limit);
+    remaining = limit - textArea.value.length;
+    document.getElementById('characters').innerHTML = "(" + remaining + " characters remaining)";
+}

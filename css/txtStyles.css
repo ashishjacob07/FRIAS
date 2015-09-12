@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container #banner .Heading {
+	color: #FF0004;
+	font-size: 36pt;
+}
+#container #banner .Article {
+	font-size: 18pt;
+	color: #22BC42;
+}
+#banner .text h2 {
+	color: #2345B4;
+}
+
+#banner .text {
+	position: absolute;
+	top: 6px;
+
+
+
+}
+
+#banner #faqText #faqp {
+}
+#banner #faqText #faqHeading {
+}
+
+#banner #faqText {
+}
+#banner #eventcontainer{
+	position: absolute;
+	font-size: medium;
+	left: 33%;
+	text-decoration: none;
+	text-align: justify;
+	bottom: 29%;
+}
+#eventcontainer ul li{
+	list-style-type: none;
+	color: #0E8800;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: large;
+}
+#eventcontainer h1{
+	color: #1544DD;
+	text-align: center;
+	position: absolute;
+	bottom: 95%;
+	left: -16%;
+	top: 20%;
+}
+#eventcontainer h2{
+	text-align: left;
+	color: #FF0004;
+}
+#contact p{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: x-large;
+	color: #1D42D1;
+	text-align: left;
+}
+
+#contact h1{
+	font-size: 220%;
+	color: #CC0003;
+}

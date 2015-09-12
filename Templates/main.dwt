@@ -23,8 +23,9 @@
 <li><a href="index.html"><span>Home</span></a></li>
 <li><a href="catalogue.html"><span>Catalogue</span></a>
 				<ul class="sub-menu">
-                    <li><a href="#">Beach Wear</a></li>
-                    <li><a href="#">Jeans</a></li>
+                    <li><a href="beachwear.html">Beach Wear</a></li>
+                    <li><a href="kids-top.html">Clothes</a></li>
+                    <li><a href="kids-bottom.html">Bottom</a></li>
                 </ul>
 </li>
 <li><a href="cafe.html"><span>Cafe</span></a></li>
