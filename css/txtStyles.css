@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container #banner .Heading {
+	color: #FF0004;
+	font-size: 36pt;
+}
+#container #banner .Article {
+	font-size: 18pt;
+}
+#banner .text {
+	position: absolute;
+	top: 6px;
+
+
+
+}
