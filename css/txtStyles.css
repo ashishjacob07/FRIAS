@@ -65,3 +65,15 @@
 	font-size: 220%;
 	color: #CC0003;
 }
+#faqp   {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+}
+#faqText {
+	position: absolute;
+	bottom: 45%;
+}
+
+#faqHeading{
+	color: #B7080B;
+}
