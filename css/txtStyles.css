@@ -175,3 +175,13 @@
 	width: 800px;
 	top: 250px;
 }
+
+.abouttxt h1{
+	color: #D71215;
+}
+.abouttxt h2{
+	color: #037A44;
+}
+.abouttxt p{
+	color: #0D3274;
+}
