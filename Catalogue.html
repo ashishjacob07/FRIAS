@@ -1,46 +1,185 @@
 <!doctype html>
-<html><!-- InstanceBegin template="/Templates/mainTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="utf-8">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>FRIAS - Catalogue</title>
+<title>Frias Kids - Catalogue</title>
 <!-- InstanceEndEditable -->
+<link href='css/styles.css' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-<div id="Container">
-  <div id="Banner">
-    <div id="Logo"><img src="Images/Logo.png" width="488" height="366" alt=""/></div>
-    <div id="Navigation">
-      <p>NAVIGATION</p>
-      <p>&nbsp;</p>
-    </div>
-    <div id="Search">
-      <p>SEARCH</p>
-      <p>&nbsp;</p>
-    </div>
-    <div id="Cart">
-      <p>CART</p>
-      <p>&nbsp;</p>
-    </div>
-  </div>
-    <div id="Body">
-	<!-- InstanceBeginEditable name="Editable" -->
-    <div id="Product">Content for  id "Product" Goes Here</div>
-    <!-- InstanceEndEditable -->
-      <div id="Chat">
-        <p>CHAT</p>
-        <p>&nbsp;</p>
-      </div>
-  </div>
- 
-  <div id="Footer"> 
-    <p>FOOTER </p>
-    <p>&nbsp;</p>
-    <div id="Social Media"></div>
-    <div id="Contact"></div>
-    <div id="Address"></div>
-  </div>
+
+<div id="header">
+  
+<div id="logo">
+<a href="index.html"><img id ="logoimg" src="Images/Logo.png"></a>
 </div>
+
+<div id="nav-wrapper"> 
+<nav class="nav-bar">
+<ul>
+<li><a href="index.html"><span>Home</span></a></li>
+<li><a href="catalogue.html"><span>Catalogue</span></a>
+<ul class="sub-menu">
+<li><a href="beachwear.html">Beach Wear</a></li>
+<li><a href="autumn-product.html">Autumn Fashion</a></li>
+<li><a href="casual-product.html">Casual Attire</a></li>
+</ul>
+</li>
+<li><a href="cafe.html"><span>Cafe</span></a></li>
+<li><a href="form.html"><span>Order</span></a></li>
+<li><a href="events.html"><span>Events</span></a></li>     
+</ul>
+</nav>
+</div>
+
+<div id="search">
+
+<script type="text/javascript" src="js/frias.js"></script>
+
+<form name="formsearch" id="formsearch" method="get" action="" onSubmit="checkFieldGN('formsearch','termtextkeywordsearch','Search product name or reference'); checkFormGN(); return(false);">
+<fieldset>
+<legend>Search Criteria</legend>
+						
+<label id="notlabel" for="termtextkeywordsearch">Keyword:</label>
+<input type="text" name="termtextkeywordsearch" id="termtextkeywordsearch" placeholder="SEARCH" size="20" value="" onclick="if (this.value==''){this.value='';}">
+</fieldset>
+
+<input type="image" name="searchsubmit" id="searchsubmit" src="Images/venda_locayta_search.png" alt="Search " onclick="if (termtextkeywordsearch.value=='Search product name or reference'){termtextkeywordsearch.value='';}">
+</form>
+
+
+
+</div>
+</div>
+  
+<!-- InstanceBeginEditable name="BContent" -->  
+<div id="catalogue-container">
+
+<div id="left-wrapper">
+<h1>Catalogue</h1>
+<div class="just-border"></div>
+<h3>Summer Edition:</h3>
+<p><a href="beachwear.html">Beach Wear</a></p>
+<br>
+<h3>Fall Edition:</h3>
+<p><a href="autumn-product.html">Autumn Fashion</a></p>
+<br>
+<h3>Others:</h3>
+<p><a href="casual-product.html">Casual Attire</a></p>
+</div>
+
+<div id="right-wrapper">
+<div id="desc-1">
+<h3>Beach Wear</h3>
+<img src="Images/product/beachwear6.jpg">
+<img src="Images/product/beachwear1.jpg">
+<img src="Images/product/beachwear4.jpg">
+<a href="beachwear.html">See More ></a>
+</div>
+<div id="desc-2">
+<h3>Autumn Fashion</h3>
+<img src="Images/product/prodkid2.jpg">
+<img src="Images/product/jimi.png">
+<img src="Images/product/prod7.jpg">
+<a href="autumn-product.html">See More ></a>
+</div>
+<div id="desc-3">
+<h3>Casual Attire</h3>
+<img src="Images/product/Denim female jeans 2.png">
+<img src="Images/product/Demin boy Jeans1.png">
+<img src="Images/product/napoleo.png">
+<a href="casual-product.html">See More ></a>
+</div>
+</div>
+
+
+</div>
+<!-- InstanceEndEditable --> 
+
+<div id="footer">
+
+<div id="new_footer">
+<div class="footerlinks">
+<ul>
+<li><h2>Can we help?</h2></li>
+<li><a href="shipping.html" title="Delivery information">Delivery information</a></li>
+<li><a href="form.html">Order Form</a></li>
+<li><a href="FAQ.html" title="Corporate responsibility">Frequently Asked Questions</a></li>
+<li><a title="Contact us" href="contact.html">Contact us</a></li>
+</ul>
+	
+<ul>
+<li><h2>About us</h2></li>
+<li><a href="aboutus.html">Our Store</a></li>
+<li><a href="cafe.html">Our Cafe</a></li>
+<li><a href="feedback.html">Website feedback</a></li>
+<li><a href="policy.html">Terms &amp; conditions</a></li>
+</ul>
+
+<ul class="nopadding">
+<li>
+<a href="index.html"><img id ="footerimg" src="Images/LogoFooter.png"></a>
+</li>
+
+<li><h2>Frias social</h2></li>
+<table id="socialwrapper">
+<tr>
+<td>
+<li><a href="#" title="Facebook"><img class="social-logo" src="Images/fblogo.png"></a></li>
+</td>
+
+<td>
+<li><a href="#" title="Twitter"><img class="social-logo" src="Images/twitlogo.png"></a>
+</li>
+</td>
+<td>
+<li><a href="#" title="Instagram"><img class="social-logo" src="Images/instalogo.png"></a>
+</li>
+</td>
+<td>
+<li><a href="#" title="Google Plus"><img class="social-logo" src="Images/googlogo.png"></a></li>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td>
+<p>Copyright Frias Kids Store 2015</p>
+</td>
+</tr>
+</table>
+   
+</ul>
+
+<ul>
+<li>
+
+<span class="title">subscribe for new products now!</span>
+
+<div class="form-group">
+<form name="emailsonly2" action="#">
+
+<fieldset>
+
+<legend>Email sign-up</legend>
+<input type="text" name="email" id="emailsignup" size="16" placeholder="EMAIL ADDRESS" title="EMAIL ADDRESS">
+<input type="submit" value="subscribe" id="sub-button">
+					
+</fieldset>
+</form>
+</div>
+
+</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
 </body>
 <!-- InstanceEnd --></html>

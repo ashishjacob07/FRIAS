@@ -10,6 +10,66 @@
 	background-image:url(../Images/felt-blue001.jpg);
 }
 
+#about-container {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image:url(../Images/felt-blue001.jpg);
+	height: 700px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#contact-container {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image:url(../Images/felt-blue001.jpg);
+	height: 1500px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#shipping-container {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image:url(../Images/felt-blue001.jpg);
+	height: 800px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#policy-container {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image:url(../Images/felt-blue001.jpg);
+	height: 1200px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#about-banner {
+	text-align: center;
+	position: relative;
+	width:1000px;
+	height:600px;
+	margin-top: 0px;
+	margin-bottom: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	top: 280px;
+}
+
+#about-banner .about-desc {
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+}
+
 #event-wrapper {
 	text-align: center;
 	position: relative;
@@ -95,6 +155,10 @@
 	top: 250px;
 }
 
+iframe {
+	box-shadow: 1px 1px 15px 1px #000000;
+}
+
 #faqText {
 	position: absolute;
 	bottom: 45%;
@@ -126,23 +190,10 @@
 	transition-timing-function: initial;
 	transition-delay: initial;	
 }
-#DeliveryHead {
-	color: #CC1C1F;
-}
-#deliveryinf p{
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	text-align: left;
-}
-#premium{
-	color: #D31D1D;
-}
-#regular{
-	color: #3143B0;
-}
 
 #termtxt h1{
 	color: #000000;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-variant: small-caps;
 	font-size: 40px;
@@ -151,7 +202,7 @@
  
  #termtxt p{
 	color: #000000;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: Segoe, 'Montserrat', sans-serif;
 	font-variant: small-caps;
 	font-style: normal;
 	font-size: x-large;
@@ -160,7 +211,7 @@
 
 #termtxt ul li{
 	color: #000000;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-size: x-large;
 	text-align: justify;
@@ -171,17 +222,27 @@
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	height: 1100px;
+	height: 750px;
 	width: 800px;
 	top: 250px;
+	opacity: 0.8;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 10px 0px #000000;
+	border-width: medium;
+	border-style: solid;
+	padding: 40px;
 }
 
-.abouttxt h1{
-	color: #D71215;
+#DeliveryHead {
+	color: #CC1C1F;
 }
-.abouttxt h2{
-	color: #037A44;
+#deliveryinf p{
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
 }
-.abouttxt p{
-	color: #0D3274;
+#premium{
+	color: #D31D1D;
+}
+#regular{
+	color: #3143B0;
 }
