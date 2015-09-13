@@ -126,3 +126,16 @@
 	transition-timing-function: initial;
 	transition-delay: initial;	
 }
+#DeliveryHead {
+	color: #CC1C1F;
+}
+#deliveryinf p{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+}
+#premium{
+	color: #D31D1D;
+}
+#regular{
+	color: #3143B0;
+}
