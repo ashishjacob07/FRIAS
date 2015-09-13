@@ -1,23 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
-
-#container .Heading {
-	color: #FF0004;
-	font-size: 36pt;
-}
-
-#container .Article {
-	font-size: 18pt;
-	color: #22BC42;
-	text-align: left;
-}
-#banner .text h2 {
-	color: #2345B4;
-}
-
-#banner .text {
-	position: absolute;
-	top: 6px;
+#event-body {
+	width: 100%;
+	padding: 0;
+	height: 850px;
+	margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image:url(../Images/felt-blue001.jpg);
 }
 
 #event-wrapper {
@@ -67,6 +57,16 @@
 	font-size: x-large;
 	color: #1D42D1;
 	text-align: left;
+}
+
+#faq-wrapper {
+	width: 100%;
+	padding: 0;
+	height: 1000px;
+	margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image:url(../Images/felt-blue001.jpg);
 }
 
 #faq-banner {
