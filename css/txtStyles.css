@@ -139,3 +139,39 @@
 #regular{
 	color: #3143B0;
 }
+
+#termtxt h1{
+	color: #000000;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-variant: small-caps;
+	font-size: 40px;
+	text-align: center;
+ }
+ 
+ #termtxt p{
+	color: #000000;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-variant: small-caps;
+	font-style: normal;
+	font-size: x-large;
+	text-align: justify;
+}
+
+#termtxt ul li{
+	color: #000000;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-size: x-large;
+	text-align: justify;
+}
+
+#policy-wrapper {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	height: 1100px;
+	width: 800px;
+	top: 250px;
+}
