@@ -87,12 +87,12 @@
 <br>
 <br>
 <label>Please Select Quantity</label>
-<input type='button' class="button-product" name='subtract' onclick='Total("qty",-1,"total",463.50);' value='-'/>
-<input type='button' class="button-product" name='add' onclick='Total("qty",1,"total",463.50);' value='+'/>
+<input type='button' class="button-product" name='subtract' onclick='Total("qty",-1,"total",5);' value='-'/>
+<input type='button' class="button-product" name='add' onclick='Total("qty",1,"total",5);' value='+'/>
 <input type='text' class="form-control" name='qty' id='qty' readonly=true value="0"/>
 <br>
 <br>
-<label>Total Price: </label>
+<label>Total Price ($): </label>
 <input type='text' class="form-control" name='total' id='total' value="0" />
 </form>
 
