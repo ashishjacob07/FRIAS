@@ -1,13 +1,13 @@
 <!doctype html>
-<html>
+<html><!-- InstanceBegin template="/Templates/product.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="utf-8">
-<!-- TemplateBeginEditable name="doctitle" -->
+<!-- InstanceBeginEditable name="doctitle" -->
 <title>Untitled Document</title>
-<!-- TemplateEndEditable -->
-<link href='../css/styles.css' rel='stylesheet' type='text/css'>
-<link href='../css/product.css' rel='stylesheet' type='text/css'>
-<link href='../css/formstyles.css' rel='stylesheet' type='text/css'>
+<!-- InstanceEndEditable -->
+<link href='css/styles.css' rel='stylesheet' type='text/css'>
+<link href='css/product.css' rel='stylesheet' type='text/css'>
+<link href='css/formstyles.css' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 
@@ -16,7 +16,7 @@
 <div id="header">
   
 <div id="logo">
-<a href="index.html"><img id ="logoimg" src="../Images/Logo.png"></a>
+<a href="index.html"><img id ="logoimg" src="Images/Logo.png"></a>
 </div>
 
 <div id="nav-wrapper"> 
@@ -39,7 +39,7 @@
 
 <div id="search">
 
-<script type="text/javascript" src="../js/frias.js"></script>
+<script type="text/javascript" src="js/frias.js"></script>
 
 <form name="formsearch" id="formsearch" method="get" action="" onSubmit="checkFieldGN('formsearch','termtextkeywordsearch','Search product name or reference'); checkFormGN(); return(false);">
 <fieldset>
@@ -49,7 +49,7 @@
 <input type="text" name="termtextkeywordsearch" id="termtextkeywordsearch" placeholder="SEARCH" size="20" value="" onclick="if (this.value==''){this.value='';}">
 </fieldset>
 
-<input type="image" name="searchsubmit" id="searchsubmit" src="../Images/venda_locayta_search.png" alt="Search " onclick="if (termtextkeywordsearch.value=='Search product name or reference'){termtextkeywordsearch.value='';}">
+<input type="image" name="searchsubmit" id="searchsubmit" src="Images/venda_locayta_search.png" alt="Search " onclick="if (termtextkeywordsearch.value=='Search product name or reference'){termtextkeywordsearch.value='';}">
 </form>
 
 
@@ -57,17 +57,19 @@
 </div>
 </div>
   
-<!-- TemplateBeginEditable name="BContent" -->  
+<!-- InstanceBeginEditable name="BContent" -->  
 <div id="product-container">
 
 <div id="product-banner">
-<div class="producthead"><img src="../Images/LogoFooter.png" width="300" height="300" alt="Product">
+<div class="producthead"><img src="Images/product/prod7.jpg" width="276" height="323" alt="Product">
 </div>
 
 <div class="description">
-<h1>Product Name Here</h1>
+<h1>PATTERNED HOODED JACKET</h1>
 <br>
-<p>The description of the product. JUST WRITE EVERYTHING YOU CAN THINK OF, MAKE IT LONG PLEASE. ALSO SPECIFY FOR GIRLS OR BOYS.</p>
+<p>
+Jacket in sweatshirt fabric with a print pattern, jersey-lined hood, zip at the front, side pockets, and ribbing at the cuffs and hem. Soft brushed inside. For boys and girls,</p>
+<p>70% cotton, 30% polyester. Machine wash at 40°.</p>
 <br>
 <br>
 
@@ -83,12 +85,11 @@
 
 <form id="purchase">
 <br>
-<label>Item Price: $(Change this too)</label>
-<br>
+<label>Item Price: $24.90</label><br>
 <br>
 <label>Please Select Quantity</label>
-<input type='button' class="button-product" name='subtract' onclick='Total("qty",-1,"total",5);' value='-'/>
-<input type='button' class="button-product" name='add' onclick='Total("qty",1,"total",5);' value='+'/>
+<input type='button' class="button-product" name='subtract' onclick='Total("qty",-1,"total",24.9);' value='-'/>
+<input type='button' class="button-product" name='add' onclick='Total("qty",1,"total",24.9);' value='+'/>
 <input type='text' class="form-control" name='qty' id='qty' readonly=true value="0"/>
 <br>
 <br>
@@ -105,7 +106,7 @@
 </div>
 
 </div>
-<!-- TemplateEndEditable --> 
+<!-- InstanceEndEditable --> 
 
 <div id="footer">
 
@@ -129,26 +130,26 @@
 
 <ul class="nopadding">
 <li>
-<a href="index.html"><img id ="footerimg" src="../Images/LogoFooter.png"></a>
+<a href="index.html"><img id ="footerimg" src="Images/LogoFooter.png"></a>
 </li>
 
 <li><h2>Frias social</h2></li>
 <table id="socialwrapper">
 <tr>
 <td>
-<li><a href="#" title="Facebook"><img class="social-logo" src="../Images/fblogo.png"></a></li>
+<li><a href="#" title="Facebook"><img class="social-logo" src="Images/fblogo.png"></a></li>
 </td>
 
 <td>
-<li><a href="#" title="Twitter"><img class="social-logo" src="../Images/twitlogo.png"></a>
+<li><a href="#" title="Twitter"><img class="social-logo" src="Images/twitlogo.png"></a>
 </li>
 </td>
 <td>
-<li><a href="#" title="Instagram"><img class="social-logo" src="../Images/instalogo.png"></a>
+<li><a href="#" title="Instagram"><img class="social-logo" src="Images/instalogo.png"></a>
 </li>
 </td>
 <td>
-<li><a href="#" title="Google Plus"><img class="social-logo" src="../Images/googlogo.png"></a></li>
+<li><a href="#" title="Google Plus"><img class="social-logo" src="Images/googlogo.png"></a></li>
 </td>
 </tr>
 </table>
@@ -190,4 +191,4 @@
 </div>
 
 </body>
-</html>
+<!-- InstanceEnd --></html>
