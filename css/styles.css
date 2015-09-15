@@ -316,9 +316,10 @@ span {
 
 #footerimg {
 	margin-top: 0px;
-	display: inline-block;
+	display: block;
 	width: 400px;
 	height: 250px;
+	margin-left: auto;
 	right: 150px;
 	position: absolute;
 }
@@ -380,7 +381,7 @@ span {
 
 #banner .image-slider-wrapper:hover {
     position: relative;
-    opacity: 0.75;
+    opacity: 0.9;
 }
 
 #image_slider img {
@@ -728,7 +729,6 @@ span {
 	position: relative;
 	top: 280px;
 	display: block;
-	right: 0;
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -768,6 +768,7 @@ span {
 	margin-right: 40px;
 	width: 240px;
 	height: 240px;
+	position: relative;
 }
 
 #right-wrapper img:hover {
