@@ -61,7 +61,7 @@
 <div id="product-container">
 
 <div id="product-banner">
-<div class="producthead"><img src="../Images/LogoFooter.png" width="300" height="300" alt="Product">
+<div class="producthead">
 </div>
 
 <div class="description">
