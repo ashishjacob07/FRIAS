@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Untitled Document</title>
 <!-- TemplateEndEditable -->
@@ -89,7 +90,7 @@
 <label>Please Select Quantity</label>
 <input type='button' class="button-product" name='subtract' onclick='Total("qty",-1,"total",5);' value='-'/>
 <input type='button' class="button-product" name='add' onclick='Total("qty",1,"total",5);' value='+'/>
-<input type='text' class="form-control" name='qty' id='qty' readonly=true value="0"/>
+<input type='text' class="form-control" name='qty' id='qty'/>
 <br>
 <br>
 <label>Total Price ($): </label>
