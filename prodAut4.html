@@ -1,12 +1,14 @@
 <!doctype html>
-<html><!-- InstanceBegin template="/Templates/catalogue.dwt" codeOutsideHTMLIsLocked="false" -->
+<html><!-- InstanceBegin template="/Templates/product.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Frias Kids - Casual</title>
+<title>Frias Kids -Jimi &amp; Janis Jeans</title>
 <!-- InstanceEndEditable -->
 <link href='css/styles.css' rel='stylesheet' type='text/css'>
+<link href='css/product.css' rel='stylesheet' type='text/css'>
+<link href='css/formstyles.css' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 
@@ -57,34 +59,51 @@
 </div>
   
 <!-- InstanceBeginEditable name="BContent" -->  
-<div id="product-containers">
+<div id="product-container">
 
-<div id="left-wrapper">
-<h1>Catalogue</h1>
-<div class="just-border"></div>
-<h3>Summer Edition:</h3>
-<p><a href="beachwear.html">Beach Wear</a></p>
+<div id="product-banner">
+<div class="producthead2"><img src="Images/product/jimi.png" width="742" height="504" alt="Product">
+</div>
+
+<div class="description">
+<h1>JIMI &amp; sJANIS JEANS</h1>
 <br>
-<h3>Fall Edition:</h3>
-<p><a href="autumn-product.html">Autumn Fashion</a></p>
+<p>
+4-pocket denim slim jeans. Adjustable elasticized waistband and zip fly with snap fastener. Zippers at front. Soft brushed inside. For boys and girls,</p>
+<p>95% cotton, 5% spandex. Machine wash at 40'</p>
 <br>
-<h3>Others:</h3>
-<p><a href="casual-product.html">Casual Attire</a></p>
+<br>
+
+<div class="form-wrapper">
+<label>Select the size:</label>
+<select class="selectbox-1" id="select" name="select" required>
+<option value="">Please Select</option>
+<option value="S">Small</option>
+<option value="M">Medium</option>
+<option value="L">Large</option>
+</select>
 </div>
 
-<div id="right-wrapper1">
+<form id="purchase">
+<br>
+<label>Item Price: $35.90</label><br>
+<br>
+<label>Please Select Quantity</label>
+<input type='button' class="button-product" name='subtract' onclick='Total("qty",-1,"total",35.9);' value='-'/>
+<input type='button' class="button-product" name='add' onclick='Total("qty",1,"total",35.9);' value='+'/>
+<input type='text' class="form-control" name='qty' id='qty' readonly=true value="0"/>
+<br>
+<br>
+<label>Total Price ($): </label>
+<input type='text' class="form-control" name='total' id='total' value="0" />
+</form>
 
-<div id="bgwrapper2"></div>
-<div id="desc-1">
-<h3>Casual Clothings</h3>
-<a href="prodCas2.html"><img src="Images/product/Demin boy Jeans1.png"></a>
-<a href="prodCas4.html"><img src="Images/product/Demin boy jeans2.png"></a>
-<a href="prodCas1.html"><img src="Images/product/Denim female jeans 2.png"></a>
 </div>
-<div id="desc-2"> <a href="prodCas5.html"><img src="Images/product/Denim female Jeans1.png"></a>
-  <a href="prodCas6.html"><img src="Images/product/johnny.png"></a>
-  <a href="prodCas3.html"><img src="Images/product/napoleo.png"></a>
-</div>
+
+<p class="go-back">
+<a href="catalogue.html">< Go back to Catalogue</a>
+</p>
+
 </div>
 
 </div>

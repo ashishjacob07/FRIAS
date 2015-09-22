@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Untitled Document</title>
+<title>Frias Kids - Purple Star Tankini Set</title>
 <!-- InstanceEndEditable -->
 <link href='css/styles.css' rel='stylesheet' type='text/css'>
 <link href='css/product.css' rel='stylesheet' type='text/css'>
@@ -62,17 +62,38 @@
 <div id="product-container">
 
 <div id="product-banner">
-<div class="producthead"><img src="Images/LogoFooter.png" width="300" height="300" alt="Product">
+<div class="producthead"><img src="Images/product/beachwear3.jpg" width="300" height="396" alt="Product">
 </div>
 
 <div class="description">
-<h1>PRODUCT IS OUT OF STOCK</h1>
-<br>
-<p>This product is out of stock. Please check again later.</p>
-<br>
-<br>
+<h1>PURPLE STAR TANKINI SET</h1>
+<p>Halter purple tankini top and included bottom set. For girls </p>
+<p>83% polyester 17% elastane. Lining 100% polyester.<br>
+  
+</p>
+<div class="form-wrapper">
+  <label>Select the size:</label>
+<select class="selectbox-1" id="select" name="select" required>
+<option value="">Please Select</option>
+<option value="S">Small</option>
+<option value="M">Medium</option>
+<option value="L">Large</option>
+</select>
+</div>
 
-
+<form id="purchase">
+<br>
+<label>Item Price: $38.90</label>
+<br>
+<label>Please Select Quantity</label>
+<input type='button' class="button-product" name='subtract' onclick='Total("qty",-1,"total",38.90);' value='-'/>
+<input type='button' class="button-product" name='add' onclick='Total("qty",1,"total",38.90);' value='+'/>
+<input type='text' class="form-control" name='qty' id='qty' readonly=true value="0"/>
+<br>
+<br>
+<label>Total Price ($): </label>
+<input type='text' class="form-control" name='total' id='total' value="0" />
+</form>
 
 </div>
 
