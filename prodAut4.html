@@ -10,6 +10,7 @@
 <link href='css/product.css' rel='stylesheet' type='text/css'>
 <link href='css/formstyles.css' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/frias.js"></script>
 </head>
 
 <body>
@@ -38,9 +39,11 @@
 </nav>
 </div>
 
-<div id="search">
+<div id="cart">
+<a href="form.html"><img id="cartimg"src="Images/cart.png"></a>
+</div>
 
-<script type="text/javascript" src="js/frias.js"></script>
+<div id="search">
 
 <form name="formsearch" id="formsearch" method="get" action="" onSubmit="checkFieldGN('formsearch','termtextkeywordsearch','Search product name or reference'); checkFormGN(); return(false);">
 <fieldset>
@@ -84,7 +87,7 @@
 </select>
 </div>
 
-<form id="purchase">
+<form class="add-to-cart" action="form.html" method="post">
 <br>
 <label>Item Price: $35.90</label><br>
 <br>
@@ -96,6 +99,7 @@
 <br>
 <label>Total Price ($): </label>
 <input type='text' class="form-control" name='total' id='total' value="0" />
+<input type="submit" class="product-submit" value="Add to Cart" />
 </form>
 
 </div>

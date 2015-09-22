@@ -8,6 +8,7 @@
 <!-- TemplateEndEditable -->
 <link href='../css/styles.css' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="../js/frias.js"></script>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
 <div id="header">
   
 <div id="logo">
-<a href="index.html"><img id ="logoimg" src="../Images/Logo.png"></a>
+<a href="form.html"><img id ="logoimg" src="../Images/Logo.png"></a>
 </div>
 
 <div id="nav-wrapper"> 
@@ -36,9 +37,11 @@
 </nav>
 </div>
 
-<div id="search">
+<div id="cart">
+<a href="cart.html"><img id="cartimg"src="Images/cart.png"></a>
+</div>
 
-<script type="text/javascript" src="../js/frias.js"></script>
+<div id="search">
 
 <form name="formsearch" id="formsearch" method="get" action="" onSubmit="checkFieldGN('formsearch','termtextkeywordsearch','Search product name or reference'); checkFormGN(); return(false);">
 <fieldset>
